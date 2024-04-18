@@ -89,7 +89,8 @@ export const sendSearchRequest = async ({
                   maxSummarizedResults: summaryNumResults,
                   summarizerPromptName: summaryPromptName,
                   promptText: summaryPromptText,
-                  factualConsistencyScore: enableFactualConsistencyScore ?? false
+                  factualConsistencyScore: enableFactualConsistencyScore ?? false,
+                  chat:{store:true}     // RIS
                 },
               ],
             }
